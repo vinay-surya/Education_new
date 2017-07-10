@@ -97,7 +97,7 @@
                     <ImageView
                         android:layout_weight="1"
                         android:padding="5sp"
-                        android:src="@drawable/video_tutorial"
+                        android:src="@drawable/services1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <ImageView
@@ -105,8 +105,25 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:padding="5sp"
-                        android:src="@drawable/video_tutorial"/>
+                        android:src="@drawable/training1"/>
                 </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="1"
+                    android:padding="5sp"
+                    android:src="@drawable/contact1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5sp"
+                    android:src="@drawable/training1"/>
             </LinearLayout>
 
         </LinearLayout>

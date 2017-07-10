@@ -50,6 +50,7 @@ public class Home extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
+            //
         }
     }
 
@@ -68,7 +69,14 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings2) {
+        if (id == R.id.action_login) {
+            Intent intent=new Intent(Home.this,Login.class);
+            startActivity(intent);
+            return true;
+        }
+        if (id == R.id.action_register) {
+            Intent intent=new Intent(Home.this,Register.class);
+            startActivity(intent);
             return true;
         }
 

@@ -20,7 +20,9 @@
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Videoplay"></activity>
+        <activity android:name=".Videoplay" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register"></activity>
     </application>
 
 </manifest>
