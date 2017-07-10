@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#25AE90"
+
+    android:background="#2E3136"
     tools:context="com.wexos.guru.education.Login">
 
     <LinearLayout
@@ -13,30 +14,31 @@
         android:layout_gravity="center"
         android:orientation="vertical"
         android:paddingLeft="20dp"
-        android:paddingRight="20dp" >
+        android:paddingRight="20dp">
 
         <EditText
             android:id="@+id/email"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#FCFBFF"
+            android:background="#3C4049"
             android:hint="email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:singleLine="true"
-             />
+            android:textColorHint="#ffffff" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#FCFBFF"
+            android:background="#3C4049"
             android:hint="password"
             android:inputType="textPassword"
             android:padding="10dp"
             android:singleLine="true"
+            android:textColorHint="#ffffff"
 
             />
 
@@ -47,8 +49,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
-            android:background="#EDEEF2"
+            android:background="#ea4c88"
             android:text="Login"
+            android:textColor="#ffffff"
 
             />
 
@@ -60,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dip"
             android:background="@null"
-            android:text="Click to Register"
+            android:text="If Not Registered? Click to Register"
             android:textAllCaps="false"
             android:textColor="#EDEEF2"
             android:textSize="15dp" />
