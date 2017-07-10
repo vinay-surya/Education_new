@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Video Tutorials" />
+        <item
+            android:id="@+id/interview"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Interview Questions" />
+        <item
+            android:id="@+id/technical"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Technical Terms" />
+        <item
+            android:id="@+id/question"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Question and Answers" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notification" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/suggestion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Suggestions and Complaints" />
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
