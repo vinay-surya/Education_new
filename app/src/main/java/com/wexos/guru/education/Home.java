@@ -92,10 +92,16 @@ public class Home extends AppCompatActivity
         if (id == R.id.home) {
             // Handle the camera action
         } else if (id == R.id.video) {
+            Intent intent=new Intent(Home.this,Videoplay.class);
+            startActivity(intent);
 
-        } else if (id == R.id.interview) {
+        } else if (id == R.id.contact) {
+            Intent intent=new Intent(Home.this,Contactus.class);
+            startActivity(intent);
 
-        } else if (id == R.id.technical) {
+        } else if (id == R.id.training) {
+            Intent intent=new Intent(Home.this,Training.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_share) {
 
@@ -111,5 +117,13 @@ public class Home extends AppCompatActivity
         Intent intent=new Intent(Home.this,Videoplay.class);
         startActivity(intent);
 
+    }
+    public void training(View view){
+        Intent intent=new Intent(Home.this,Training.class);
+        startActivity(intent);
+    }
+    public void contact(View view){
+        Intent intent=new Intent(Home.this,Contactus.class);
+        startActivity(intent);
     }
 }

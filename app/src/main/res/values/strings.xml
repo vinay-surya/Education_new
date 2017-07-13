@@ -8,4 +8,12 @@
     <string name="action_settings">Settings</string>
     <string name="action_log">Login</string>
     <string name="action_reg">Register</string>
+    <string name="micro">We created the Microsoft Professional Program to provide training on these core functional and technical skills, combining highly rated online instruction with hands-on labs, concluding in a final capstone project</string>
+    <string name="sap">SAP is especially well-known for its Enterprise Resource Planning (ERP) and data management programs. SAP is an acronym for Systems, Applications and Products.</string>
+    <string name="big">Big data is a term for data sets that are so large or complex that traditional data processing application software is inadequate to deal with them. Challenges include capture, storage, analysis, data curation, search, sharing, transfer, visualization, querying, updating and information privacy.</string>
+    <string name="web">This section provides information about web technologies that relate to the interface between web servers and their clients. This information includes markup languages, programming interfaces and languages, .</string>
+    <string name="tetsing">Software testing is an investigation conducted to provide stakeholders with information about the quality of the software product or service under test.[1] Software testing can also provide an objective, independent view of the software </string>
+    <string name="oracle">Database administrators manage systems software to build and maintain computer databases. They are responsible for security and related issues, such as ensuring that employees have proper access rights to areas of the database and preventing access by unauthorized personnel.</string>
+    <string name="warehousing">In computing, a data warehouse (DW or DWH), also known as an enterprise data warehouse (EDW), is a system used for reporting and data analysis, and is considered a core component of business intelligence. DWs are central repositories of integrated data from one or more disparate sources</string>
+    <string name="text1">Java is the foundation for virtually every type of networked application and is the global standard for developing and delivering embedded applications, games, Web content, and enterprise software.."</string>
 </resources>
