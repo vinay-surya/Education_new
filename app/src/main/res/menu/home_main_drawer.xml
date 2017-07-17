@@ -11,6 +11,10 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="Video Tutorials" />
         <item
+            android:id="@+id/quiz"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Quiz " />
+        <item
             android:id="@+id/interview"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Interview Questions" />
@@ -25,7 +29,7 @@
         <item
             android:id="@+id/notification"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Notification" />
+            android:title="Study Material" />
 
     </group>
 
