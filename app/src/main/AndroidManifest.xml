@@ -27,7 +27,21 @@
         <activity android:name=".Register" />
         <activity android:name=".Training" />
         <activity android:name=".Contactus" />
+        <activity android:name=".Quiz.Main2Activity"/>
         <activity android:name=".Ourservices" />
+        <activity android:name=".Quiz.Devops"/>
+        <activity android:name=".Quiz.Web"/>
+        <activity android:name=".Quiz.ResultActivity"/>
+        <activity android:name=".Quiz.ViewAnswerActivity"/>
+        <activity android:name=".Quiz.Software"/>
+        <activity android:name=".Quiz.Sap"/>
+        <activity android:name=".model.Asp"/>
+        <activity android:name=".Quiz.Big_Data"/>
+        <activity android:name=".Quiz.Oracle"/>
+        <activity android:name=".Quiz.ConceptActivity"/>
+        <activity android:name=".Quiz.Contact_us"/>
+        <activity android:name=".Quiz.Data_WareHouse"/>
+        
         <activity android:name=".Websitedesign"></activity>
     </application>
 

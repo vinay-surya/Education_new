@@ -14,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.wexos.guru.education.Quiz.Main2Activity;
+
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -103,9 +105,14 @@ public class Home extends AppCompatActivity
             Intent intent=new Intent(Home.this,Training.class);
             startActivity(intent);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.servi) {
+            Intent intent=new Intent(Home.this,Ourservices.class);
+            startActivity(intent);
 
-        } else if (id == R.id.question) {
+        } else if (id == R.id.quiz) {
+            Intent intent=new Intent(Home.this,Main2Activity.class);
+            startActivity(intent);
+
 
         }
 
@@ -126,4 +133,13 @@ public class Home extends AppCompatActivity
         Intent intent=new Intent(Home.this,Contactus.class);
         startActivity(intent);
     }
+    public void quiz(View view){
+        Intent intent=new Intent(Home.this,Main2Activity.class);
+        startActivity(intent);
+    }
+    public void ser(View view){
+        Intent intent=new Intent(Home.this,Ourservices.class);
+        startActivity(intent);
+    }
+
 }
