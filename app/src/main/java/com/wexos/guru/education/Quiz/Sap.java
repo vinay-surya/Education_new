@@ -40,7 +40,7 @@ public class Sap extends AppCompatActivity {   //Asp Activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sap);
+        setContentView(R.layout.activity_sap_q);
 
 
         //Initialize the view

@@ -13,8 +13,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
-import com.wexos.guru.education.Quiz.Main2Activity;
+import com.wexos.guru.education.Interview_Questions.Main2Activity;
+import com.wexos.guru.education.Quiz.Main2Activity_Quiz;
+import com.wexos.guru.education.Study.MainActivity_Study;
 
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -23,17 +27,10 @@ public class Home extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_main);
+        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.animation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -101,16 +98,16 @@ public class Home extends AppCompatActivity
             Intent intent=new Intent(Home.this,Contactus.class);
             startActivity(intent);
 
-        } else if (id == R.id.training) {
-            Intent intent=new Intent(Home.this,Training.class);
-            startActivity(intent);
-
-        } else if (id == R.id.servi) {
-            Intent intent=new Intent(Home.this,Ourservices.class);
-            startActivity(intent);
-
         } else if (id == R.id.quiz) {
-            Intent intent=new Intent(Home.this,Main2Activity.class);
+            Intent intent=new Intent(Home.this,Main2Activity_Quiz.class);
+            startActivity(intent);
+
+        } else if (id == R.id.interview) {
+            Intent intent=new Intent(Home.this,Main2Activity_Quiz.class);
+            startActivity(intent);
+
+        } else if (id == R.id.technical) {
+            Intent intent=new Intent(Home.this,Main2Activity_Quiz.class);
             startActivity(intent);
 
 
@@ -125,21 +122,48 @@ public class Home extends AppCompatActivity
         startActivity(intent);
 
     }
-    public void training(View view){
-        Intent intent=new Intent(Home.this,Training.class);
+    public void interview(View view){
+        Intent intent =new Intent(Home.this, Main2Activity.class);
+        startActivity(intent);
+
+    }
+
+    public void quiz(View view){
+        Intent intent=new Intent(Home.this,Main2Activity_Quiz.class);
         startActivity(intent);
     }
+
+
+    public void training(View view){
+        Intent intent =new Intent(Home.this, Training.class);
+        startActivity(intent);
+
+    }
+
+    public void study(View view){
+        Intent intent=new Intent(Home.this,MainActivity_Study.class);
+        startActivity(intent);
+    }
+
     public void contact(View view){
         Intent intent=new Intent(Home.this,Contactus.class);
         startActivity(intent);
     }
-    public void quiz(View view){
-        Intent intent=new Intent(Home.this,Main2Activity.class);
-        startActivity(intent);
-    }
-    public void ser(View view){
+
+
+    public void sevice(View view){
         Intent intent=new Intent(Home.this,Ourservices.class);
         startActivity(intent);
+
+
     }
+
+    public void about_us(View view){
+        Intent intent=new Intent(Home.this,About_Us.class);
+        startActivity(intent);
+
+
+    }
+
 
 }

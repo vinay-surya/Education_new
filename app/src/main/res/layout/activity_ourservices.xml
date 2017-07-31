@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#ffffff"
     tools:context="com.wexos.guru.education.Ourservices">
     <LinearLayout
         android:orientation="vertical"
@@ -12,54 +13,52 @@
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/website"
-            android:layout_marginTop="25dp"
+            android:layout_margin="25dp"
             android:text="Website Designing"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="2sp"
             android:onClick="websitedesign"/>
         <Button
+            android:layout_margin="25dp"
+            android:onClick="website"
             android:text="Website Development"
             android:layout_width="match_parent"
+            android:padding="10sp"
             android:layout_height="wrap_content" />
         <Button
+            android:onClick="android"
             android:text="Android Application development"
             android:layout_width="match_parent"
+            android:padding="2sp"
+            android:layout_margin="25dp"
             android:layout_height="wrap_content" />
         <Button
+            android:onClick="iphone"
             android:text="Iphone Application Development"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:text="Search Engine Optimization"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:text="E-commerce Solutions"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:text="PSD To HTML Conversion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:text="SEO Packages"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:text="Mobile Responsive"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:text="Web hosting"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:text="Domain Registration"
-            android:layout_width="match_parent"
+            android:padding="10sp"
+            android:layout_margin="25dp"
             android:layout_height="wrap_content" />
 
+        <Button
+            android:onClick="informatica"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:padding="2dp"
+            android:layout_margin="25dp"
+            android:layout_height="wrap_content"
+            android:text="ETL/DWH/BI" />
 
 
+        <Button
+            android:onClick="testing"
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:padding="2dp"
+            android:layout_margin="25dp"
+            android:layout_height="wrap_content"
+            android:text="TEsting" />
 
 
     </LinearLayout>

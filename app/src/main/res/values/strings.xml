@@ -1,6 +1,41 @@
 <resources>
     <string name="app_name">Education</string>
     <string name="title_activity_home">Home</string>
+    <integer name="swing_anim_time">750</integer>
+
+    <string name="content">Wexos Informatica is a developing technology to inspire. We understand the power of a large and active community. Whether its sharing best practices or solving problems, we put the power of community to work for each and every one of our customers
+    </string>
+
+    <string name="content2">Credible Minds is an Educational application, this application is for who is eager to learn to new
+    technologies like Php, Java, Data WareHouse, JavaScript. In this application we have video tutorials, interview questions to learn,
+    quiz to practice, study materials, online training courses. And also if you have any queries you can contact and they give solution for that.
+    </string>
+
+    <string name="wd">
+        Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.
+    </string>
+    <string name="wddevelopment">
+        Writing a web application is often simplified by open source software[relevant? – discuss] such as Django, Ruby on Rails or Symfony called web application frameworks. These frameworks facilitate rapid application development by allowing a development team to focus on the parts of their application which are unique to their goals without having to resolve common development issues such as user management.[7] While many of these frameworks are open source, this is by no means a requirement.
+The use of web application frameworks can often reduce the number of errors in a program, both by making the code simpler, and by allowing one team to concentrate on the framework while another focuses on a specified use case.
+    </string>
+    <string name="androiddevelopment">
+        The Android software development kit (SDK) includes a comprehensive set of development tools.[4] These include a debugger, libraries, a handset emulator based on QEMU, documentation, sample code, and tutorials. Currently supported development platforms include computers running Linux (any modern desktop Linux distribution), Mac OS X 10.5.8 or later, and Windows 7 or later. As of March 2015, the SDK is not available on Android itself, but software development is possible by using specialized Android applications.[5][6][7]
+Until around the end of 2014, the officially supported integrated development environment (IDE) was Eclipse using the Android Development Tools (ADT) Plugin, though IntelliJ IDEA IDE (all editions) fully supports Android development out of the box,[8] and NetBeans IDE also supports Android development via a plugin.
+    </string>
+
+    <string name="iphone">
+        The iOS user interface is based upon direct manipulation, using multi-touch gestures. Interface control elements consist of sliders, switches, and buttons. Interaction with the OS includes gestures such as swipe, tap, pinch, and reverse pinch, all of which have specific definitions within the context of the iOS operating system and its multi-touch interface. Internal accelerometers are used by some applications to respond to shaking the device (one common result is the undo command) or rotating it in three dimensions (one common result is switching between portrait and landscape mode). Apple has been significantly praised for incorporating thorough accessibility functions into iOS, enabling users with vision and hearing disabilities to properly use its products.
+    </string>
+    <string name="informatica">
+        Informatica PowerCenter is a widely used extraction, transformation and loading (ETL) tool used in building enterprise data warehouses. The components within Informatica PowerCenter aid in extracting data from its source, transforming it as per business requirements and loading it into a target data warehouse.
+    </string>
+    <string name="ecommerce">
+        E-commerce is a transaction of buying or selling online. Electronic commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange (EDI), inventory management systems, and automated data collection systems. Modern electronic commerce typically uses the World Wide Web for at least one part of the transactions life cycle although it may also use other technologies such as e-mail.
+    </string>
+    <string name="testing">
+        Software testing is an investigation conducted to provide stakeholders with information about the quality of the software product or service under test.[1] Software testing can also provide an objective, independent view of the software to allow the business to appreciate and understand the risks of software implementation. Test techniques include the process of executing a program or application with the intent of finding software bugs (errors or other defects), and verifying that the software product is fit for use.
+    </string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -26,4 +61,1096 @@
     <string name="oracle">Database administrators manage systems software to build and maintain computer databases. They are responsible for security and related issues, such as ensuring that employees have proper access rights to areas of the database and preventing access by unauthorized personnel.</string>
     <string name="warehousing">In computing, a data warehouse (DW or DWH), also known as an enterprise data warehouse (EDW), is a system used for reporting and data analysis, and is considered a core component of business intelligence. DWs are central repositories of integrated data from one or more disparate sources</string>
     <string name="text1">Java is the foundation for virtually every type of networked application and is the global standard for developing and delivering embedded applications, games, Web content, and enterprise software.."</string>
-  </resources>
+
+
+    //java questions//
+
+    <string name="java_heading"><b>JAVA INTERVIEW QUESTIONS</b></string>
+
+    <string name="question1"><b>1).What is difference between JDK,JRE and JVM?</b>\n\n JVM\n JVM is an acronym for Java Virtual Machine, it is an abstract machine which provides the runtime environment in which java bytecode can be executed. It is a specification. \n\n
+        JVMs are available for many hardware and software platforms (so JVM is platform dependent).\n\nJRE
+
+\nJRE stands for Java Runtime Environment. It is the implementation of JVM.\n\nJDK
+
+\nJDK is an acronym for Java Development Kit. It physically exists. It contains JRE + development tools.</string>
+
+
+    <string name="question2">2). How many types of memory areas are allocated by JVM?</string>
+    <string name="question2_answer">a. Class(Method) Area.\nb.Heap. \nc.Stack \nd.Program Counter Register. \ne.Native Method Stack.
+   \nf.Execution Engine.
+    </string>
+
+    <string name="question3">3). Which class is the superclass of all classes?</string>
+
+    <string name="question4">4). Why Java doesn’t support multiple inheritance?</string>
+    <string name="question4_answer">Java doesn’t support multiple inheritance in classes because of “Diamond Problem”. To know more about diamond problem with example, read Multiple Inheritance in Java.
+        \n\nHowever multiple inheritance is supported in interfaces. An interface can extend multiple interfaces because they just declare the methods and implementation will be present in the implementing class. So there is no issue of diamond problem with interfaces.
+    </string>
+
+    <string name="question5">5). What is the importance of main method in Java?</string>
+    <string name="question5_answer">main() method is the entry point of any standalone java application. The syntax of main method is public static void main(String args[]).
+    \n\nmain method is public and static so that java can access it without initializing the class. The input parameter is an array of String through which we can pass runtime arguments to the java program. Check this post to learn how to compile and run java program.
+    </string>
+
+    <string name="question6">6). What is classloader?</string>
+    <string name="question6_answer">The classloader is a subsystem of JVM that is used to load classes and interfaces.There are many types of classloaders e.g. Bootstrap classloader, Extension classloader, System classloader, Plugin classloader etc.
+    </string>
+
+    <string name="question7">7). What are access modifiers?</string>
+    <string name="question7_answer">Java provides access control through public, private and protected access modifier keywords. When none of these are used, it’s called default access modifier.
+        \n\nA java class can only have public or default access modifier. Read Java Access Modifiers to learn more about these in detail.
+    </string>
+
+
+    <string name="question8">8). What is a singleton class?</string>
+    <string name="question8_answer">A singleton class in java can have only one instance and hence all its methods and variables belong to just one instance. Singleton class concept is useful for the situations when there is a need to limit the number of objects for a class.
+    </string>
+
+
+    <string name="question9">9). What is constructor?</string>
+    <string name="question9_answer">Constructor is just like a method that is used to initialize the state of an object. It is invoked at the time of object creation.
+    </string>
+
+    <string name="question10">10). What is static variable?</string>
+    <string name="question10_answer">static variable is used to refer the common property of all objects (that is not unique for each object) e.g. company name of employees,college name of students etc.
+    </string>
+
+    <string name="question11">11). What is abstraction?</string>
+    <string name="question11_answer">Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+    </string>
+
+    <string name="question12">12). What is interface?</string>
+    <string name="question12_answer">An interface in java is a blueprint of a class. It has static constants and abstract methods.</string>
+
+    <string name="question13">13). What is Exception Handling?</string>
+    <string name="question13_answer">The exception handling in java is one of the powerful mechanism to handle the runtime errors so that normal flow of the application can be maintained.
+    </string>
+
+
+    <string name="question15">15). What is the difference between abstract class and interface?</string>
+    <string name="question15_answer">abstract keyword is used to create abstract class whereas interface is the keyword for interfaces.
+    \n\nAbstract classes can have method implementations whereas interfaces can’t.
+     \n\nA class can extend only one abstract class but it can implement multiple interfaces.
+      \n\nWe can run abstract class if it has main() method whereas we can’t run an interface.
+    </string>
+
+    <string name="question16">16). What are Wrapper classes?</string>
+    <string name="question16_answer">Java wrapper classes are the Object representation of eight primitive types in java. All the wrapper classes in java are immutable and final. Java 5 autoboxing and unboxing allows easy conversion between primitive types and their corresponding wrapper classes.
+    </string>
+
+    <string name="question17">17). What is Classloader in Java?</string>
+    <string name="question17_answer">Java Classloader is the program that loads byte code program into memory when we want to access any class. We can create our own classloader by extending ClassLoader class and overriding loadClass(String name) method.
+    </string>
+
+    <string name="question18">18). What is multithreading?</string>
+    <string name="question18_answer">Multithreading in java is a process of executing multiple threads simultaneously.
+
+ </string>
+
+    <string name="question19">19). What is Garbage Collection?</string>
+    <string name="question19_answer">Garbage Collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects. In Java, process of deallocating memory is handled automatically by the garbage collector.
+ </string>
+
+    <string name="question20">20). What is Serialization and Deserialization?</string>
+    <string name="question20_answer">The object should implement Serializable interface and we can use java.io.ObjectOutputStream to write object to file or to any OutputStream object.
+  \n\nThe process of converting stream data created through serialization to Object is called deserialization.
+
+ </string>
+
+
+    //web technology questions//
+
+
+    <string name="web_heading"><b>WEB TECHNOLOGY</b></string>
+
+    <string name="web_question1"><b>1). Mention what are the main language or platform used for web-design?</b>
+        \n\nThe main language used for web-designing are,
+        \n\nHTML: Base template.
+        \n\nCSS: Styling.
+        \n\nJavaScript: Functionality.
+        \n\nHP: Server side scripts.
+    </string>
+
+
+    <string name="web_question3">3). Define the term Internet</string>
+    <string name="web_answer3">The Internet is a global system of interconnected computer networks that use the
+standard Internet Protocol Suite (TCP/IP) to serve billions of users worldwide. It is a network of
+networks that consists of millions of private, public, academic, business, and government
+networks, of local to global scope, that are linked by a broad array of electronic and optical
+networking technologies.
+    </string>
+
+
+    <string name="web_question4">4). What is the difference between TCP and UDP?</string>
+    <string name="web_answer4">TCP:
+        \n\na).Connection oriented transport protocol.
+        \nb).Sends data as a stream of bytes.
+        \nc).Guarantee of delivery.
+
+        \n\nUDP:
+        \n\na).Connection less protocol.
+        \nb).Datagram service.
+        \nc).No guarantee of delivery.
+
+    </string>
+
+    <string name="web_question5">5).What is HTML?</string>
+    <string name="web_answer5">HTML is a language for describing web pages.
+    </string>
+
+    <string name="web_question6">6).What is CSS?</string>
+    <string name="web_answer6">Cascading Style Sheets (CSS) is a slightly misleading term, since a website might have
+only one CSS file (style sheet), or the CSS might be embedded within an HTML file. It is better
+to think of CSS as a technology (in the singular). CSS is comprised of statements that control the
+styling of HTML documents. Simply put, an HTML document should convey content. A CSS
+document should control the styling of that content.
+    </string>
+
+    <string name="web_question7">7).What are the types of rules?</string>
+    <string name="web_answer7">Type 1: Rules
+        \nStatement + statement block X {declaration; declaration;} X {property; value; property: value;}
+div > p {font-size: 1em; color #333;}
+        \n\nType 2:
+        \n At-Rules at-keyword + identifier + declaration @import "subs.css";
+    </string>
+
+    <string name="web_question8">8).Mention all the text properties?</string>
+    <string name="web_answer8">a).Color Direction
+        \nb).Line-height Letter-spacing.
+        \nc).Text-align Text-decoration.
+        \nd).Text-indent Text-shadow.
+        \ne).Text-transform Unicode-bidi.
+        \nf).Vertical-align White-space.
+        \ng).Word-spacing.
+    </string>
+
+    <string name="web_question9">9).What is the purpose of CSS Box Model and mention its parts also.</string>
+    <string name="web_answer9">The CSS box model is essentially a box that wraps around HTML elements, and it
+Consists of: margins, borders, padding, and the actual content.
+
+    \n\nThe different parts are:
+    \na).Margin.
+    \nb).Border.
+    \nc).Padding.
+    \nd).Content.
+</string>
+
+
+    <string name="web_question10">10).What is JavaScript?</string>
+    <string name="web_answer10">JavaScript was designed to add interactivity to HTML pages.
+        \n\nJavaScript is a scripting language.
+    \n\nA scripting language is a lightweight programming language.
+        \n\nA scripting language is a lightweight programming language.
+        \n\nA JavaScript is usually embedded directly into HTML pages.
+</string>
+
+    <string name="web_question11">11).Are Java and JavaScript the Same?</string>
+    <string name="web_answer11">NO!.Java and JavaScript are two completely different languages in both concept and
+design. Java (developed by Sun Microsystems) is a powerful and much more complex
+programming language - in the same category as C and C++.
+</string>
+
+    <string name="web_question12">12).What are literals?</string>
+    <string name="web_answer12">Literal values are the ones you type into mathematical or string expressions.
+For example 23 (an integer), 12.32E23 (a floating point), or flopsy the Hamster (a string).
+String literals can be enclosed by either single or double quotes.
+</string>
+
+    <string name="web_question13">13).What is DOM?</string>
+    <string name="web_answer13">The Document Object Model (DOM) is the model that describes how all elements in an
+HTML page, like input fields, images, paragraphs etc., are related to the topmost structure: the
+document itself. By calling the element by its proper DOM name, we can influence it
+    </string>
+
+    <string name="web_question14">14).What are the 2 traditional ways of assigning event handlers in DOM</string>
+    <string name="web_answer14">a).Via HTML, using attributes.
+        \nb).Via scripting.
+    </string>
+
+    <string name="web_question15">15).How to add Nodes in DOM Tree?
+</string>
+    <string name="web_answer15">a).Nodes can also be added to the DOM. You have already seen how attribute nodes can be
+created and applied to an element so lets look at adding element and text nodes within
+the document tree (without using the innerHTML property).
+        \n\nb).The first step is to create a node object of the type you want using one of
+document.createElement(), document.createAttribute() or document.createTextNode().
+For attributes, however, you will probably just want to create an element node and assign it
+attributes directly.
+    </string>
+
+    <string name="web_question16">16).What is a tag?</string>
+    <string name="web_answer16">In HTML, a tag tells the browser what to do. When you write an HTML page, you enter tags for many reasons to change the appearance of text, to show a graphic, or to make a link to another page.
+    </string>
+
+    <string name="web_question17">17).What is a DOCTYPE?</string>
+    <string name="web_answer17">According to HTML standards, each HTML document begins with a DOCTYPE declaration that specifies
+which version of HTML the document uses.Originally, the DOCTYPE declaration was used only by SGML based tools like HTML validators, which needed to determine which version of HTML a document used (or
+claimed to use).</string>
+
+    <string name="web_question18">18).How to represent the XML Document?</string>
+    <string name="web_answer18">In any markup language, the first element to appear is called the root element, which
+defines what kind of document the file will be. In an HTML file, the html tag is the root
+element. An HTML file will always have the HTML element as the root element, while in an
+XML file, it can be anything.</string>
+
+    <string name="web_question19">19).What is PCDATA in XML?</string>
+    <string name="web_answer19">Parsed Character Data (PCDATA) is a term used about text data that will be parsed by the
+XML parser. XML parsers normally parse all the text in an XML document.When an XML
+element is parsed, the text between the XML tags is also parsed:
+<message>This text is also parsed</message>.
+</string>
+
+    <string name="web_question20">20).Mention any 3 XML Parsers?</string>
+    <string name="web_answer20">a).SAX (Simple API for XML) Parser.
+        \nb).DOM (Document Object Model) Parser and
+        \nc).XSLT (XML Style Sheet) Parsers.
+</string>
+
+
+    //testing questions//
+
+    <string name="testing_heading"><b>SOFTWARE TESTING</b></string>
+
+    <string name="testing_question1"><b>1).What is software testing?</b>\n\nSoftware testing is a process of executing a program or application with the intent of finding the software bugs.
+        </string>
+
+    <string name="testing_question2">2).What is the difference among white box, black box and gray box testing?</string>
+    <string name="testing_answer2"><b>a).Black box Testing:</b>
+        \nThe strategy of black box testing is based on requirements and specification. It requires no need of knowledge of internal path, structure or implementation of the software being tested.
+        \n\n<b>b).White box Testing:</b>
+        \nWhite box testing is based on internal paths, code structure, and implementation of the software being tested. It requires a full and detail programming skill.
+        \n\n<b>c).Gray box Testing:</b>
+        \nThis is another type of testing in which we look into the box which is being tested, It is done only to understand how it has been implemented. After that we close the box and use the black box testing.
+    </string>
+
+    <string name="testing_question3">3).What are the types of defects?</string>
+    <string name="testing_answer3">There are three types of defects: Wrong, missing and extra.
+        \n\n<b>a).Wrong:</b>
+        \nThese defects are occurred due to requirements have been implemented incorrectly.
+        \n\n<b>b).Missing:</b>
+        \nIt is used to specify the missing things i.e. a specification was not implemented, or the requirement of the customer was not noted properly.
+        \n\n<b>c).Extra:</b>
+        \nThis is an extra facility incorporated into the product that was not given by the end customer. It is always a variance from the specification but may be an attribute that was desired by the customer. However, it is considered as a defect because the variance from the user requirements.
+    </string>
+
+    <string name="testing_question4">4).What is exploratory testing?</string>
+    <string name="testing_answer4">Simultaneous test design and execution against an application is called exploratory testing. In this testing the tester uses his domain knowledge and testing experience to predict where and under what conditions the system might behave unexpectedly.
+    </string>
+
+    <string name="testing_question5">5).What are the advantages of designing tests early in the life cycle?</string>
+    <string name="testing_answer5">It helps you to prevent defects into the code.
+    </string>
+
+    <string name="testing_question6">6).What is acceptance testing?</string>
+    <string name="testing_answer6">Acceptance testing is done to enable a user/customer to determine whether to accept a software product. It also validates whether the software follows a set of agreed acceptance criteria.
+    </string>
+
+    <string name="testing_question7">7).What is accessibility testing?</string>
+    <string name="testing_answer7">Accessibility testing is used to verify whether a software product is accessible to the people having disabilities (deaf, blind, mentally disabled etc.).
+    </string>
+
+    <string name="testing_question8">8). What is Adhoc testing?</string>
+    <string name="testing_answer8"> Adhoc testing is a testing phase where the tester tries to break the system by randomly trying the systems functionality.
+    </string>
+
+    <string name="testing_question9">9). What is Agile testing?</string>
+    <string name="testing_answer9">Agile testing is a testing practice that uses agile methodologies i.e. follow test-first design paradigm.
+    </string>
+
+    <string name="testing_question10">10). What is API (Application Programming Interface)?</string>
+    <string name="testing_answer10">Application Programming Interface is a formalized set of software calls and routines that can be referenced by an application program in order to access supporting system or network services.
+    </string>
+
+
+    <string name="testing_question12">12). What is Benchmark Testing?</string>
+    <string name="testing_answer12">Benchmarking testing is the process of comparing application performance with respect to industry standard given by some other organization.
+        /n/nIt is a standard testing which specifies where our application stands with respect to others.
+    </string>
+
+    <string name="testing_question13">13).Which types are testing are important for web testing?</string>
+    <string name="testing_answer13">There are two types of testing which are very important for web testing:
+        \n\na).Performance testing.
+        \nb).Security testing.
+    </string>
+
+    <string name="testing_question14">14).What Test Techniques are there and what is their purpose?</string>
+    <string name="testing_answer14">Test Techniques are primarily used for two purposes: a) To help identify defects, b) To reduce the number of test cases.
+
+        \n\na).Equivalence partitioning:
+        \nIt is mainly used to reduce number of test cases by identifying different sets of data that are not the same and only executing one test from each set of data.
+        \n\nb).Boundary Value Analysis:
+        \nIt is used to check the behaviour of the system at the boundaries of allowed data.
+        \n\nc).State Transition Testing:
+        \nIt is used to validate allowed and disallowed states and transitions from one state to another by various input data
+    </string>
+
+    <string name="testing_question15">15).What is Random/Monkey Testing?</string>
+    <string name="testing_answer15">Random testing is also known as monkey testing. In this testing, data is generated randomly often using a tool. The data is generated either using a tool or some automated mechanism.
+        \n\nRandom testing has some limitations:
+        \n\na).Most of the random tests are redundant and unrealistic.
+        \n\nb).It needs more time to analyze results.
+        \n\nc).It is not possible to recreate the test if you do not record what data was used for testing.
+    </string>
+
+    <string name="testing_question16">16).What is the negative and positive testing?</string>
+    <string name="testing_answer16"><b>a).Negative Testing:</b>\nWhen you put an invalid input and receive errors is known as negative testing.
+        \n\n<b>b).Positive Testing:</b>\nWhen you put in the valid input and expect some actions that are completed according the specification is known as positive testing.
+    </string>
+
+    <string name="testing_question17">17).What is the benefit of test independence?</string>
+    <string name="testing_answer17">Test independence is very useful because it avoids author bias in defining effective tests.</string>
+
+
+    <string name="testing_question18">18).What is Black Box Testing?</string>
+    <string name="testing_answer18">Testing based on an analysis of the specification of a piece of software without reference to its internal workings. The goal is to test how well the component conforms to the published requirements for the component.
+    </string>
+
+    <string name="testing_question19">19).What is risk-based testing?</string>
+    <string name="testing_answer19">Risk-based Testing is the term used for an approach to creating a test strategy that is based on prioritizing tests by risk. The basis of the approach is a detailed risk analysis and prioritizing of risks by risk level. Tests to address each risk are then specified, starting with the highest risk first.
+    </string>
+
+    <string name="testing_question20">20).What is beta testing?</string>
+    <string name="testing_answer20">Testing performed by potential customers at their own locations.
+    </string>
+
+    //big data//
+
+    <string name="big_data_heading"><b>BIG DATA</b></string>
+
+    <string name="big_question1"><b>1). What is Big Data?</b>
+        \n\nBig Data is nothing but an assortment of such a huge and complex data that it becomes very tedious to capture, store, process, retrieve and analyze it with the help of on-hand database management tools or traditional data processing techniques.
+    </string>
+
+    <string name="big_question2">2).Why do we need Hadoop?</string>
+    <string name="big_answer2">Everyday a large amount of unstructured data is getting dumped into our machines.
+        The major challenge is not to store large data sets in our systems but to retrieve and analyze the big data in the organizations, that too data present in different machines at different locations.
+        In this situation a necessity for Hadoop arises. Hadoop has the ability to analyze the data present in different machines at different locations very quickly and in a very cost effective way.
+        It uses the concept of MapReduce which enables it to divide the query into small parts and process them in parallel.
+        This is also known as parallel computing.
+        The following link Why Hadoop gives a detailed explanation about why Hadoop is gaining so much popularity!
+    </string>
+
+    <string name="big_question3">3).What are the four characteristics of Big Data?</string>
+    <string name="big_answer3">the three characteristics of Big Data are,
+        \n\n<b>a).Volume:</b>
+        \nFacebook generating 500+ terabytes of data per day.
+        \n\n<b>b).Velocity:</b>
+        \nAnalyzing 2 million records each day to identify the reason for losses.
+        \n\n<b>c).Variety:</b>
+        \nimages, audio, video, sensor data, log files, etc.
+        \n\nd).Veracity:
+        \nbiases, noise and abnormality in data.
+
+    </string>
+
+    <string name="big_question4">4).What does ‘jps’ command do?</string>
+    <string name="big_answer4">It gives the status of the deamons which run Hadoop cluster. It gives the output mentioning the status of namenode, datanode , secondary namenode, Jobtracker and Task tracker.
+    `  </string>
+
+    <string name="big_question5">5).Which are the three modes in which Hadoop can be run?</string>
+    <string name="big_answer5">The three modes in which Hadoop can be run are,
+        \n\na).standalone (local) mode.
+        \nb).Pseudo-distributed mode.
+        \nc).Fully distributed mode.
+    `  </string>
+
+    <string name="big_question6">6).How is analysis of Big Data useful for organizations?</string>
+    <string name="big_answer6">Effective analysis of Big Data provides a lot of business advantage as organizations will learn which areas to focus on and which areas are less important.
+        Big data analysis provides some early key indicators that can prevent the company from a huge loss or help in grasping a great opportunity with open hands!
+        A precise analysis of Big Data helps in decision making! For instance, nowadays people rely so much on Facebook and Twitter before buying any product or service.
+        All thanks to the Big Data explosion.
+    </string>
+
+    <string name="big_question7">7).What is the basic difference between traditional RDBMS and Hadoop?</string>
+    <string name="big_answer7">Traditional RDBMS is used for transactional systems to report and archive the data,
+        whereas Hadoop is an approach to store huge amount of data in the distributed file system and process it.
+        RDBMS will be useful when you want to seek one record from Big data, whereas,
+        Hadoop will be useful when you want Big data in one shot and perform analysis on that later.
+    </string>
+
+    <string name="big_question8">8).What is a Datanode?</string>
+    <string name="big_answer8">Datanodes are the slaves which are deployed on each machine and provide the actual storage.
+        These are responsible for serving read and write requests for the clients.
+    </string>
+
+    <string name="big_question9">9).What is a rack?</string>
+    <string name="big_answer9">Rack is a storage area with all the datanodes put together.
+        These datanodes can be physically located at different places.
+        Rack is a physical collection of datanodes which are stored at a single location.
+        There can be multiple racks in a single location.
+    </string>
+
+    <string name="big_question10">10).Which file does the Hadoop-core configuration?</string>
+    <string name="big_answer10">core-default.xml
+    </string>
+
+    <string name="big_question11">11).What is speculative execution in Hadoop?</string>
+    <string name="big_answer11">If a node appears to be running slow,
+        the master node can redundantly execute another instance of the same task and first output will be taken .
+        this process is called as Speculative execution.
+    </string>
+
+    <string name="big_question12">12).Can Hadoop handle streaming data?</string>
+    <string name="big_answer12">Yes, through Technologies like Apache Kafka, Apache Flume, and Apache Spark it is possible to do large-scale streaming.
+    </string>
+
+    <string name="big_question13">13).Explain what is NameNode in Hadoop?</string>
+    <string name="big_answer13">NameNode in Hadoop is the node,
+        where Hadoop stores all the file location information in HDFS (Hadoop Distributed File System).
+        In other words, NameNode is the centrepiece of an HDFS file system.
+        It keeps the record of all the files in the file system,
+        and tracks the file data across the cluster or multiple machines.
+    </string>
+
+
+    <string name="big_question14">14).Explain what is WebDAV in Hadoop?</string>
+    <string name="big_answer14">To support editing and updating files WebDAV is a set of extensions to HTTP.
+        On most operating system WebDAV shares can be mounted as filesystems ,
+        so it is possible to access HDFS as a standard filesystem by exposing HDFS over WebDAV.
+    </string>
+    <string name="big_question15">15).Explain what is sqoop in Hadoop ?</string>
+    <string name="big_answer15">To support editing and updating files WebDAV is a set of extensions to HTTP.
+        On most operating system WebDAV shares can be mounted as filesystems ,
+        so it is possible to access HDFS as a standard filesystem by exposing HDFS over WebDAV.
+    </string>
+
+    <string name="big_question16">16).What does the term Replication factor denotes?</string>
+    <string name="big_answer16">Replication factor is the number of times a file needs to be replicated in HDFS.
+    </string>
+
+    <string name="big_question17">17).Explain HDFS Functionality in brief?</string>
+    <string name="big_answer17">HDFS is scalable distributed Storage file system which is used for storing large amount of data in a Replicated environment.
+    </string>
+
+    <string name="big_question18">18).What is meant by Rack Awareness in Hadoop?</string>
+    <string name="big_answer18">The NN (Name Node) stores the Metadata information of the storage location of the files like the rack, node and block.
+        In Hadoop terminology, it is known as Rack awareness.
+    </string>
+
+    <string name="big_question19">19).Name the structure provided by the MR(Map Reduce)?</string>
+    <string name="big_answer19">Dynamic schema</string>
+
+    <string name="big_question20">20).List all the daemons required to run the Hadoop cluster ?</string>
+    <string name="big_answer20">a).NameNode
+    \nb).DataNode
+    \nc).JobTracker
+    \nd).TaskTracker</string>
+
+    //sap//
+
+    <string name="sap_heading"><b>SAP</b></string>
+
+    <string name="sap_question1"><b>1). What is SAP?</b>
+        \n\nSAP stands for Systems Applications and Products in Data Processing.
+        \n\nSAP by definition is also named of the ERP (Enterprise Resource Planning) software as well the name of the company.
+        \n\nSAP system consists of a number of fully integrated modules, which covers virtually every aspect of the business management.
+    </string>
+
+    <string name="sap_question2">2).What is smart forms in SAP?</string>
+    <string name="sap_answer2">SAP Smart Forms tool can be used to print and send documents.
+        This tool is useful in developing forms, PDF files, e-mails and documents for the Internet.
+        The tool provides an interface to build and maintain the layout and logic of a form.
+        SAP also delivers a selection of forms for business processes such as those used in Customer Relationship Management (CRM), Sales and Distribution (SD), Financial Accounting (FI) and Human Resources (HR).
+    </string>
+
+    <string name="sap_question3">3).What is SAP memory and ABAP memory?</string>
+    <string name="sap_answer3">SAP memory is a global memory whereas ABAP memory is local memory.
+    </string>
+
+    <string name="sap_question4">4).What is an ERP ?</string>
+    <string name="sap_answer4">ERP stands for Enterprise Resource Planning Software and is a integrated computer based system used to manage a companyies resources effectively.
+        It ensures smooth information amongst various departments in an enterprise or a company and manages workflows.
+    </string>
+
+    <string name="sap_question5">5).What are the different types of ERPs ?</string>
+    <string name="sap_answer5">a).SAP
+        \nb).Baan.
+        \nc).JD Edwards(now acquired by Oracle).
+        \nd).Siebel.
+        \ne).Peoplesoft (now acquired by Oracle).
+        \nf).Microsoft Dynamics.
+    </string>
+
+    <string name="sap_question6">6).Explain briefly about SAP</string>
+    <string name="sap_answer6">SAP stands for Systems Applications and Products in Data Processing.
+        It was Founded in 1972 by Wellenreuther, Hopp, Hector, Plattner and Tschira and is a German Company.
+        \n\nSAP is name of the company as well its ERP product.
+        \n\nSAP is #1 in the ERP market .
+        As of 2010, SAP has more  than 140,000 installations worldwide ,over 25 industry-specific business solutions, and more than 75,000 customers in 120 countries.
+    </string>
+
+    <string name="sap_question7">7).What are the different SAP products ?</string>
+    <string name="sap_answer7"><b>a).SAP R/3:</b>
+    \nIt succeds SAP R/2 and is market leader in ERP. R/3 stands for three tier architecture i.e. Presentation , Logic and Data tier. It has many modules like SD , FI , HR etc which encompass almost all enterprise departments.
+    \n\n<b>b).mySAP:</b>
+        \nIt is a suite of SAP products which apart from SAP R/3 also includes SRM , PLM, CRM, SCM.
+    </string>
+
+    <string name="sap_question8">8).What is NetWeaver ?</string>
+    <string name="sap_answer8">Netweaver is an integrated technology platform such that all the products in the mySAP suite can run on a single instance of netweaver known as SAP Web Application Server (SAP WEBAs).
+        \n\nThe advantage of using Netweaver is you can access SAP data using the web (http protocol) or even mobile.  Thus you can save on costs involved in training users on SAP Client side GUI.
+    `</string>
+
+    <string name="sap_question9">9).List the Different Modules in SAP.</string>
+    <string name="sap_answer9">a).FI (Financial Accounting).
+    \nb).CO(Controlling).
+    \nc).EC(Enterprise Controlling).
+    \nd).TR(Treasury).
+    \ne).IM (Investment Management.
+    \nf).HR (Human Resource).
+    \ng).SD (Sales and Distribution).
+    \nh).MM (Materials Management).
+    \ni).PM (Plant Maintenance).
+    \nj).PP (Production Planning).
+    \nk).QM - Quality Management.
+    \nl).BW (Business Warehousing).</string>
+
+    <string name="sap_question10">10).Is SAP A Database ?</string>
+    <string name="sap_answer10">NO. SAP is not a database but its an application that makes use of databases provided by other vendors like Oracle , SQL Server etc.
+    </string>
+
+    <string name="sap_question11">11).How many SAP Sessions can you work on at a given time ?</string>
+    <string name="sap_answer11">At any given time for a particular client,you can work on 6 sessions at max.
+    </string>
+
+    <string name="sap_question12">12).What is a transaction in SAP terminology ?</string>
+    <string name="sap_answer12">In SAP terminology, a transaction is series of logically connected dialog steps.
+    </string>
+
+    <string name="sap_question13">13).Mention what do you mean by datasets?</string>
+    <string name="sap_answer13">The data sets are sequential files processed on the application server. They are used for file handling in SAP.
+    </string>
+
+    <string name="sap_question14">14).What are variables?</string>
+    <string name="sap_answer14">Variables are parameters of a query that are set in the parameter query definition and are not filled with values until the queries are entered into the workbooks.
+    </string>
+
+    <string name="sap_question15">15).Mention what are the different types of variables?</string>
+    <string name="sap_answer15">Variables are used in different application,
+    \n\na).Characteristics variable.
+    \nb).Hierarchies.
+    \nc).Hierarchy nodes.
+    \nd).Text.
+    \ne).Formulas.
+    \nf).Processing Types.
+    \ng).Replacement Path.
+    \nh).User entry/default type.</string>
+
+
+    <string name="sap_question16">16).Mention some of the set-backs of SAP?</string>
+    <string name="sap_answer16">a).It is expensive.
+    \nb).Demands highly trained staff.
+    \nc).Lengthy implementation time.
+    \nd).Interfaces are a little bit complex.
+    \ne).Does not determine where master data resides.</string>
+
+    <string name="sap_question17">17).Mention what is the difference between OLAP and Data Mining?</string>
+    <string name="sap_answer17"><b>a).OLAP:</b>
+        \nOLAP stands for Online Analytical Processing it is a reporting tool configured to understand your database schema, dimensions and composition facts.
+        \n\n<b>b).Data Mining:</b>
+        \n It is an analytic process to explore data in search of consistent patterns or systematic relationship between variables.
+     </string>
+
+    <string name="sap_question18">18).Mention what are the three stages of data-mining?</string>
+    <string name="sap_answer18">Three stages of data-mining includes,
+
+        \n\na).Initial Exploration.
+    \nb).Model building.
+    \nc).Deployment.</string>
+
+    <string name="sap_question19">19).Mention what is AWB?</string>
+    <string name="sap_answer19">AWB stands for Administrator Workbench.
+        It is a tool for monitoring, controlling and maintaining all the processes connected with data staging and processing in the business information warehousing.
+    </string>
+
+    <string name="sap_question20">20).Explain what is Bex?</string>
+    <string name="sap_answer20">Bex means Business Explorer.
+        It allows end user to locate reports, analyze information, view reports and can execute queries.
+        The queries in workbook can be saved to their respective roles in the Bex browser. It has following components Bex analyzer, Bex Map and Bex web.
+    </string>
+
+    \\dot net\\
+
+    <string name="net_heading"><b>DOT NET</b></string>
+
+    <string name="net_question1"><b>1). What is ASP?</b>
+        \n\nActive Server Pages (ASP), also known as Classic ASP, is a Microsofts server-side technology, which helps in creating dynamic and user-friendly Web pages.
+        It uses different scripting languages to create dynamic Web pages, which can be run on any type of browser.
+        The Web pages are built by using either VBScript or JavaScript and these Web pages have access to the same services as Windows application, including ADO (ActiveX Data Objects) for database access, SMTP (Simple Mail Transfer Protocol) for e-mail, and the entire COM (Component Object Model) structure used in the Windows environment.
+         ASP is implemented through a dynamic-link library (asp.dll) that is called by the IIS server when a Web page is requested from the server.
+    </string>
+
+    <string name="net_question2">2).What is ASP.NET?</string>
+    <string name="net_answer2">ASP.NET is a specification developed by Microsoft to create dynamic Web applications, Web sites, and Web services. It is a part of .NET Framework
+    You can create ASP.NET applications in most of the .NET compatible languages, such as Visual Basic, C#, and J#.
+    The ASP.NET compiles the Web pages and provides much better performance than scripting languages, such as VBScript.
+    The Web Forms support to create powerful forms-based Web pages. You can use ASP.NET Web server controls to create interactive Web applications. With the help of Web server controls, you can easily create a Web application.
+    </string>
+
+    <string name="net_question3">3).What is the basic difference between ASP and ASP.NET?</string>
+    <string name="net_answer3">The basic difference between ASP and ASP.NET is that ASP is interpreted; whereas, ASP.NET is compiled.
+        This implies that since ASP uses VBScript; therefore, when an ASP page is executed, it is interpreted.
+        On the other hand, ASP.NET uses .NET languages, such as C# and VB.NET, which are compiled to Microsoft Intermediate Language (MSIL).
+    </string>
+
+    <string name="net_question4">4).In which event are the controls fully loaded?</string>
+    <string name="net_answer4">Page load event guarantees that all controls are fully loaded.
+        Controls are also accessed in Page_Init events but you will see that view state is not fully loaded during this event
+    </string>
+
+    <string name="net_question5">5).How can we identify that the Page is Post Back?</string>
+    <string name="net_answer5">Page object has an "IsPostBack" property, which can be checked to know that is the page posted back.
+    </string>
+
+    <string name="net_question6">6).What is the lifespan for items stored in ViewState?</string>
+    <string name="net_answer6">The items stored in ViewState live until the lifetime of the current page expires including the postbacks to the same page.
+    </string>
+
+    <string name="net_question7">7).What are the different validators in ASP.NET?</string>
+    <string name="net_answer7">There are the following two types of validation in ASP.NET:
+    \n\na).Client-Side Validation.
+    \nb).Server-Side Validation.</string>
+
+    <string name="net_question8">8).What is View State?</string>
+    <string name="net_answer8"> View State is the method to preserve the Value of the Page and Controls between round trips.
+        It is a Page-Level State Management technique.
+        View State is turned on by default and normally serializes the data in every control on the page regardless of whether it is actually used during a post-back.
+    </string>
+
+    <string name="net_question9">9).What is caching in ASP.NET?</string>
+    <string name="net_answer9"> Caching is one of the most interesting concept and operation in ASP.NET.
+        If you can handle it, you can run any web application by applying the caching concept depending on the requirements.
+    </string>
+
+    <string name="net_question10">10).What is AutoPostBack?</string>
+    <string name="net_answer10"> If you want a control to postback automatically when an event is raised,
+        you need to set the AutoPostBack property of the control to True.
+    </string>
+
+    <string name="net_question11">11).What is an ASP.NET Web Form?</string>
+    <string name="net_answer11"> ASP.NET Web forms are designed to use controls and features that are almost as powerful as the ones used with Windows forms, and so they are called as Web forms.
+        The Web form uses a server-side object model that allows you to create functional controls, which are executed on the server and are rendered as HTML on the client.
+        The attribute, runat="server", associated with a server control indicates that the Web form must be processed on the server.
+    </string>
+
+    <string name="net_question12">12).What is MVC?</string>
+    <string name="net_answer12"> Model-View-Controller (MVC) is a pattern to separate an application into the following three main components:
+    \n\na).Model.
+    \nb).View.
+    \nc).Controller.
+    </string>
+
+    <string name="net_question13">13).What is IIS? Why is it used?</string>
+    <string name="net_answer13"> Internet Information Services (IIS) is created by Microsoft to provide Internet-based services to ASP.NET Web applications.
+        It makes your computer to work as a Web server and provides the functionality to develop and deploy Web applications on the server.
+        IIS handles the request and response cycle on the Web server.
+        It also offers the services of SMTP and FrontPage server extensions.
+        The SMTP is used to send emails and use FrontPage server extensions to get the dynamic features of IIS, such as form handler.
+    </string>
+
+    <string name="net_question14">14).What is Common Language Runtime or CLR ?</string>
+    <string name="net_answer14">CLR handles the compilation and execution of .NET programs. CLR uses JIT and compiles the IL code to machine code and then executes.
+        Below are the list of responsibilities of Common Language Runtime,
+        \n\na).Garbage Collection
+        \nb).Code Verification
+        \nc).Code Access Security.
+        \nd).Intermediate language -to-native translators and optimizer’s.
+    </string>
+
+    <string name="net_question15">15).What are Assemblies and Namespaces and explain the difference between them ?</string>
+    <string name="net_answer15">
+Namespaces are the containers for holding the classes.
+        In Object Oriented world, it is possible that programmers will use the same class name.
+        By using namespace along with class name this collision can be removed.
+        \n\na).An assembly exists as a .DLL or .EXE that contains MSIL code that is executed by CLR.
+        \nb).An assembly contains interface and classes and it can also contain other resources like files, bitmaps etc.
+    </string>
+
+    <string name="net_question16">16).Explain the application event handlers in ASP.NET ?</string>
+    <string name="net_answer16">Below are the event handlers in sequence of their execution,
+     \n\na).Application_Start:
+        \nFired when the first user visits a page of the application or first resource is requested from the server.
+    \n\nb).Application_End:
+        \nFired when there are no more users of the application.
+    \n\nc).Application_BeginRequest:
+        \nFired at the beginning of each request to the server.
+    \n\nd).Application_EndRequest:
+        \nFired at the end of each request to the server.
+    \n\ne).Session_Start:
+        \nFired when any new user visits.
+    \n\nf).Session_End:
+        \nFired when the users stop requesting pages and their session times out.
+    </string>
+
+    <string name="net_question17">17).What are the Web Form Events available in ASP.NET ?</string>
+    <string name="net_answer17">Following are the Web Form Events in the sequence of their execution,
+    \n\na).Page_Init.
+    \nb).Page_Load.
+    \nc).Page_PreRender.
+    \nd).Page_Unload.
+    \ne).Page_Disposed.
+    \nf).Page_Error.
+    \ng).Page_AbortTransaction.
+    \nh).Page_CommitTransaction
+    \ni).Page_DataBinding.
+    </string>
+
+    <string name="net_question18">18).What are Strong Names ?</string>
+    <string name="net_answer18">Strong names are unique names for assemblies.
+        Strong name is similar as GUID in COM components. When we want to deploy the assembly in GAC,
+        then we need to give the strong name for the assemblies.
+        Strong name helps GAC to differentiate between two versions.
+    </string>
+
+    <string name="net_question19">19).Explain the garbage collection in .NET ?</string>
+    <string name="net_answer19">Garbage collection is a CLR feature which automatically manages memory.
+        CLR automatically releases objects when they are no longer used and referenced.
+        Following methods are used for garbage collection,
+        \n\na).GC.Collect().
+        \nb).Dispose().
+        \nc).Finalize().
+    </string>
+
+    <string name="net_question20">20) Define Resource Files?</string>
+    <string name="net_answer20">Resource files contains non-executable data like strings, images etc.
+        that can be used by an application and deployed along with it.
+        You can change these data without recompiling the whole application.
+    </string>
+
+    \\oracle\\
+
+    <string name="oracle_heading"><b>ORACLE</b></string>
+
+    <string name="oracle_question1"><b>1). What is oracle</b>
+        \n\nOracle database (Oracle DB) is a relational database management system (RDBMS) from the Oracle Corporation.
+    Originally developed in 1977 by Lawrence Ellison and other developers, Oracle DB is one of the most trusted and widely-used relational database engines.</string>
+
+
+    <string name="oracle_question2">2). What are the components of physical database structure of Oracle database?</string>
+    <string name="oracle_answer2">Components of physical database structure are given below,
+        \n\na).One or more data files.
+        \nb).Two or more redo log files.
+        \nc).One or more control files.
+    </string>
+
+    <string name="oracle_question3">3). What is RAW datatype?</string>
+    <string name="oracle_answer3">RAW data type is used in storing values in binary data format.
+        The maximum size of a RAW in a table is 32767 bytes.
+    </string>
+
+
+    <string name="oracle_question4">4). What is BLOB datatype?</string>
+    <string name="oracle_answer4">A BLOB data type is a binary string with a varying length which is used in storing two gigabytes memory.
+        Length should be stated in Bytes for BLOB.
+    </string>
+
+    <string name="oracle_question5">5). What is a tablespace?</string>
+    <string name="oracle_answer5">A database contains Logical Storage Unit called tablespaces.
+        A tablespace is a set of related logical structures.
+        Actually a tablespace groups related logical structures together.
+    </string>
+
+    <string name="oracle_question6">6). What is an Oracle table?</string>
+    <string name="oracle_answer6">A table is basic unit of data storage in Oracle database.
+        A table contains all the accessible information of a user in rows and columns.
+    </string>
+
+
+    <string name="oracle_question7">7). What is a snapshot in Oracle database?</string>
+    <string name="oracle_answer7">A snapshot is a replica of a target master table from a single point-in-time.
+        In simple words you can say, snapshot is a copy of a table on a remote database.
+    </string>
+
+    <string name="oracle_question8">8). How many memory layers are in the Oracle shared pool?</string>
+    <string name="oracle_answer8">Oracle shared pools contains two layers:
+        \n\na).library cache.
+        \nb).data dictionary cache.
+    </string>
+
+    <string name="oracle_question9">9). What is save point in Oracle database?</string>
+    <string name="oracle_answer9">Save points are used to divide a transaction into smaller parts. It allows rolling back of a transaction. Maximum five save points are allowed.
+        It is used to save our data,
+        whenever you encounter an error you can roll back from the point where you save your SAVEPOINT.
+    </string>
+
+
+    <string name="oracle_question10">10). What is hash cluster in Oracle?</string>
+    <string name="oracle_answer10">Hash cluster is a technique to store a data in hash table and improve the performance of data retrieval.
+        Hash function is applied on table rows cluster key value and store in hash cluster.
+    </string>
+
+    <string name="oracle_question11">11).What is hash cluster in Oracle?</string>
+    <string name="oracle_answer11">Hash cluster is a technique to store a data in hash table and improve the performance of data retrieval.
+        Hash function is applied on table rows cluster key value and store in hash cluster.
+    </string>
+
+    <string name="oracle_question12">12).What are the different types of modules in Oracle forms?</string>
+    <string name="oracle_answer12">Following are the different modules in Oracle forms:
+        \n\na).Form module.
+        \nb).Menu module.
+        \nc).Pl/SQL Library module.
+        \nd).Object Library module.
+    </string>
+
+    <string name="oracle_question13">13).What is the usage of ANALYZE command in Oracle?</string>
+    <string name="oracle_answer13">ANALYZE command is used to perform various functions on index, table, or cluster. The following list specifies the usage of ANALYZE command in Oracle:
+
+        \n\na).It is used to identify migrated and chained rows of the table or cluster.
+        \nb).It is used to validate the structure of the object.
+        \nc).It helps in collecting the statistics about object used by the optimizer. They are then stored in the data dictionary.
+        \nd).It helps in deleting statistics used by object from the data dictionary.
+    </string>
+
+    <string name="oracle_question14">14).Can you create a synonym without having a table?</string>
+    <string name="oracle_answer14">Yes. We can create a synonym without having a base table.</string>
+
+    <string name="oracle_question15">15).What types of joins are used in writing SUBQUERIES?</string>
+    <string name="oracle_answer15">a).Self join.
+    \nb).Outer Join.
+    \nc).Equi-join.</string>
+
+
+    <string name="oracle_question16">16).What is a synonym?</string>
+    <string name="oracle_answer16">A synonym is also known as alias for a table, view, sequence or program unit.</string>
+
+    <string name="oracle_question17">17).What are the different types of synonyms?</string>
+    <string name="oracle_answer17">There are two types of synonyms or alias:
+    \n\n<b>a).Private:</b>
+    \n It can only accessed by the owner.
+    \n<b>b).Public:</b>
+    \nIt can be accessed by any database user.</string>
+
+
+    <string name="oracle_question18">18).How do you store pictures in a database?</string>
+    <string name="oracle_answer18">Yes, you can store pictures in a database using Long Raw Data type.
+        This data type is used to store binary data for 2 gigabytes of length.
+        However, the table can have only one Long Raw data type.
+    </string>
+
+    <string name="oracle_question19">19).What is BLOB data type in Oracle?</string>
+    <string name="oracle_answer19">BLOB data type is a data type with varying length binary string.
+        It is used to store two gigabytes memory.
+        For BLOB data type, the length needs to be specified in bytes.
+    </string>
+
+    <string name="oracle_question20">20). What are the different types of database objects?</string>
+    <string name="oracle_answer20">A list of different types of database objects:
+        \n\n<b>a).Tables:</b>
+        \nThis is a set of elements organized in vertical and horizontal fashion.
+        \n\n<b>b).Tablespaces:</b>
+        \nThis is a logical storage unit in Oracle.
+        \n\n<b>c).Views:</b>
+        \nIt is virtual table derived from one or more tables.
+        \n\n<b>d).Indexes:</b>
+        \nThis is a performance tuning method to process the records.
+        \n\n<b>e).Synonyms:</b>
+        \nThis is a name for tables.
+    </string>
+
+
+    \\data warehouse\\
+
+    <string name="data_heading"><b>DATA WAREHOUSE</b></string>
+
+    <string name="data_question1"><b>1). What is data warehouse ?</b>
+        \n\nA large store of data accumulated from a wide range of sources within a company and used to guide management decisions.
+    </string>
+
+    <string name="data_question2">2).What does subject-oriented data warehouse signify?</string>
+    <string name="data_answer2">Subject oriented signifies that the data warehouse stores the information around a particular subject such as product, customer, sales, etc.
+    </string>
+
+    <string name="data_question3">3).List any five applications of data warehouse.</string>
+    <string name="data_answer3">Subject oriented signifies that the data warehouse stores the information around a particular subject such as product, customer, sales, etc.
+    </string>
+
+    <string name="data_question4">4). What do OLAP and OLTP stand for?</string>
+    <string name="data_answer4">OLAP is an acronym for Online Analytical Processing and OLTP is an acronym of Online Transactional Processing.
+    </string>
+
+    <string name="data_question5">5). What is the very basic difference between data warehouse and operational databases?</string>
+    <string name="data_answer5">A data warehouse contains historical information that is made available for analysis of the business whereas an operational database contains current information that is required to run the business.
+    </string>
+
+    <string name="data_question6">6). List the Schema that a data warehouse system can implements.</string>
+    <string name="data_answer6">A data Warehouse can implement star schema, snowflake schema, and fact constellation schema.</string>
+
+    <string name="data_question7">7). What do you mean by Data Extraction?</string>
+    <string name="data_answer7">Data extraction means gathering data from multiple heterogeneous sources.
+    </string>
+
+    <string name="data_question8">8). Define metadata?</string>
+    <string name="data_answer8">Metadata is simply defined as data about data.
+        In other words, we can say that metadata is the summarized data that leads us to the detailed data.
+    </string>
+
+    <string name="data_question9">9). What does Metadata Respiratory contain?</string>
+    <string name="data_answer9">Metadata respiratory contains definition of data warehouse, business metadata, operational metadata,
+        data for mapping from operational environment to data warehouse, and the algorithms for summarization.
+    </string>
+
+    <string name="data_question10">10). How does a Data Cube help?</string>
+    <string name="data_answer10">Data cube helps us to represent the data in multiple dimensions. The data cube is defined by dimensions and facts.
+    </string>
+
+    <string name="data_question11">11).Define dimension?</string>
+    <string name="data_answer11">The dimensions are the entities with respect to which an enterprise keeps the records.</string>
+
+    <string name="data_question12">12).Explain data mart.</string>
+    <string name="data_answer12">Data mart contains the subset of organization-wide data. This subset of data is valuable to specific groups of an organization.
+        In other words, we can say that a data mart contains data specific to a particular group.
+    </string>
+
+    <string name="data_question13">13).What is Virtual Warehouse?</string>
+    <string name="data_answer13">The view over an operational data warehouse is known as virtual warehouse.
+    </string>
+
+    <string name="data_question14">14).Define load manager.</string>
+    <string name="data_answer14">A load manager performs the operations required to extract and load the process.
+        The size and complexity of load manager varies between specific solutions from data warehouse to data warehouse.
+    </string>
+
+    <string name="data_question15">15).Define the functions of a load manager.</string>
+    <string name="data_answer15">A load manager extracts data from the source system.
+        Fast load the extracted data into temporary data store.
+        Perform simple transformations into structure similar to the one in the data warehouse. </string>
+
+
+    <string name="data_question16">16). Define a warehouse manager.</string>
+    <string name="data_answer16">Warehouse manager is responsible for the warehouse management process.
+        The warehouse manager consist of third party system software, C programs and shell scripts.
+        The size and complexity of warehouse manager varies between specific solutions.</string>
+
+    <string name="data_question17">17). What is Summary Information?</string>
+    <string name="data_answer17">Summary Information is the area in data warehouse where the predefined aggregations are kept.
+    </string>
+
+    <string name="data_question18">18). What does the Query Manager responsible for?</string>
+    <string name="data_answer18"> Query Manager is responsible for directing the queries to the suitable tables.
+    </string>
+
+    <string name="data_question19">19). What is Normalization?</string>
+    <string name="data_answer19">Normalization splits up the data into additional tables.
+    </string>
+
+    <string name="data_question20">20).What language is the base of DMQL?</string>
+    <string name="data_answer20">DMQL is based on Structured Query Language (SQL).
+    </string>
+
+    \\javascript\\
+
+
+    <string name="script_heading"><b>JAVA SCRIPT</b></string>
+
+    <string name="script_question1"><b>1). What is Java Script ?</b>
+        \n\nAn object-oriented computer programming language commonly used to create interactive effects within web browsers.
+    </string>
+
+    <string name="script_question2">2).What is the difference between JavaScript and jscript?</string>
+    <string name="script_answer2">Netscape provided the JavaScript language.
+        Microsoft changed the name and called it JScript to avoid the trademark issue.
+        In other words, you can say JScript is same as JavaScript, but it is provided by Microsoft.
+    </string>
+
+    <string name="script_question3">3).How to create objects in JavaScript?</string>
+    <string name="script_answer3">There are 3 ways to create object in JavaScript,
+    \n\na).By object literal.
+    \nb).By creating instance of Object.
+    \nc).By Object Constructor.
+    </string>
+
+    <string name="script_question4">4).How to create array in JavaScript?</string>
+    <string name="script_answer4">There are 3 ways to create array in JavaScript,
+    \n\na).By array literal.
+    \nb).By creating instance of Array.
+    \nc).By using an Array Constructor.
+    </string>
+
+    <string name="script_question5">5).Is JavaScript case sensitive language?</string>
+    <string name="script_answer5">Yes.</string>
+
+    <string name="script_question6">6). What is the use of isNaN function?</string>
+    <string name="script_answer6">isNan function returns true if the argument is not a number otherwise it is false.
+    </string>
+
+    <string name="script_question7">7).What are JavaScript types?</string>
+    <string name="script_answer7">Following are the JavaScript types:
+        \n\na).Number.
+        \nb).String.
+        \nc).Boolean.
+        \nd).Function.
+        \ne).Object.
+        \nf).Null.
+        \ng).Undefined.
+    </string>
+
+    <string name="script_question8">8).What are JavaScript types?</string>
+    <string name="script_answer8">Following are the JavaScript types:
+        \n\na).Number.
+        \nb).String.
+        \nc).Boolean.
+        \nd).Function.
+        \ne).Object.
+        \nf).Null.
+        \ng).Undefined.
+    </string>
+
+    <string name="script_question9">9).What is negative infinity?</string>
+    <string name="script_answer9">Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero.
+    </string>
+
+    <string name="script_question10">10).Which company developed JavaScript?</string>
+    <string name="script_answer10">Netscape is the software company who developed JavaScript.
+    </string>
+
+    <string name="script_question11">11).What are undeclared and undefined variables?</string>
+    <string name="script_answer11">Undeclared variables are those that do not exist in a program and are not declared.
+        If the program tries to read the value of an undeclared variable, then a runtime error is encountered.
+        \n\nUndefined variables are those that are declared in the program but have not been given any value.
+        If the program tries to read the value of an undefined variable, an undefined value is returned.
+    </string>
+
+    <string name="script_question12">12).What are global variables?</string>
+    <string name="script_answer12">Global variables are those that are available throughout the length of the code, that is, these have no scope.
+        The var keyword is used to declare a local variable or object.
+        If the var keyword is omitted, a global variable is declared.</string>
+
+    <string name="script_question13">13).Which symbol is used for comments in Javascript?</string>
+    <string name="script_answer13">// for Single line comments and
+    \n\n/*   Multi
+    \n\nLine
+    \n\nComment
+    \n\n*/</string>
+
+    <string name="script_question14">14).What are global variables?</string>
+    <string name="script_answer14">a).ViewState is specific to a page in a session.
+    \nb).SessionState is specific to user specific data that can be accessed across all pages in the web application.</string>
+
+    <string name="script_question15">15).Explain how can you submit a form using JavaScript?</string>
+    <string name="script_answer15">To submit a form using JavaScript use document.form[0].submit();.</string>
+
+    <string name="script_question16">16). Does JavaScript support automatic type conversion?</string>
+    <string name="script_answer16">Yes JavaScript does support automatic type conversion,
+        it is the common way of type conversion used by JavaScript developers.</string>
+
+    <string name="script_question17">17). Explain how to read and write a file using JavaScript?</string>
+    <string name="script_answer17">There are two ways to read and write a file using JavaScript,
+    \n\na).Using JavaScript extensions.
+    \nb).Using a web page and Active X objects.</string>
+
+    <string name="script_question18">18). What do mean by NULL in Javascript?</string>
+    <string name="script_answer18">The NULL value is used to represent no value or no object.
+        It implies no object or null string, no valid boolean value, no number and no array object.</string>
+
+    <string name="script_question19">19). What is an undefined value in JavaScript?</string>
+    <string name="script_answer19">Undefined value means the,
+    \n\na).Variable used in the code doesn’t exist.
+    \nb).Variable is not assigned to any value.
+    \nc).Property doesn’t exist.</string>
+
+    <string name="script_question20">20). What is the use of Void(0)?</string>
+    <string name="script_answer20">Void(0) is used to prevent the page from refreshing and parameter “zero” is passed while calling.
+    \n\nVoid(0) is used to call another method without refreshing the page.</string>
+
+
+</resources>

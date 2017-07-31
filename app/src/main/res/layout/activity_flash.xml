@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wexos.guru.education.Flash">
+    android:background="#fff">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:layout_marginTop="150dp"
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/credibleminds" />
+
+        <TextView
+        android:layout_marginTop="180dp"
+        android:id="@+id/text"
+        android:gravity="center"
+        android:textColor="#504f4f"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        android:text="Powered By Wexos Informaticaa...."
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/logo"/>
-</LinearLayout>
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

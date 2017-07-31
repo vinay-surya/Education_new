@@ -6,7 +6,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/credible"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -18,6 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".About_Us">
+        </activity>
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
@@ -25,24 +28,49 @@
         <activity android:name=".Videoplay" />
         <activity android:name=".Login" />
         <activity android:name=".Register" />
-        <activity android:name=".Training" />
+
         <activity android:name=".Contactus" />
-        <activity android:name=".Quiz.Main2Activity"/>
+        <activity android:name=".Interview_Questions.Main2Activity" />
+        <activity android:name=".Quiz.Main2Activity_Quiz" />
         <activity android:name=".Ourservices" />
-        <activity android:name=".Quiz.Devops"/>
-        <activity android:name=".Quiz.Web"/>
-        <activity android:name=".Quiz.ResultActivity"/>
-        <activity android:name=".Quiz.ViewAnswerActivity"/>
-        <activity android:name=".Quiz.Software"/>
-        <activity android:name=".Quiz.Sap"/>
-        <activity android:name=".model.Asp"/>
-        <activity android:name=".Quiz.Big_Data"/>
-        <activity android:name=".Quiz.Oracle"/>
-        <activity android:name=".Quiz.ConceptActivity"/>
-        <activity android:name=".Quiz.Contact_us"/>
-        <activity android:name=".Quiz.Data_WareHouse"/>
-        
-        <activity android:name=".Websitedesign"></activity>
+        <activity android:name=".Quiz.Devops" />
+        <activity android:name=".Quiz.Web" />
+        <activity android:name=".Quiz.ResultActivity" />
+        <activity android:name=".Quiz.ViewAnswerActivity" />
+        <activity android:name=".Quiz.Software" />
+        <activity android:name=".Quiz.Sap" />
+        <activity android:name=".model.Asp" />
+        <activity android:name=".Training"></activity>
+        <activity android:name=".Quiz.Big_Data" />
+        <activity android:name=".Quiz.Oracle" />
+        <activity android:name=".Quiz.ConceptActivity" />
+        <activity android:name=".Quiz.Data_WareHouse" />
+        <activity android:name=".Websitedesign" />
+        <activity android:name=".Interview_Questions.Big_Data_Interview" />
+        <activity android:name=".Interview_Questions.Data_warehouse_Interview" />
+        <activity android:name=".Interview_Questions.Dot_net_Interview" />
+        <activity android:name=".Interview_Questions.MainActivity" />
+        <activity android:name=".Interview_Questions.Java_Script_Interview" />
+        <activity android:name=".Interview_Questions.Oracle_Interview" />
+        <activity android:name=".Interview_Questions.Sap_Interview" />
+        <activity android:name=".Interview_Questions.Web_Technology_Interview" />
+        <activity android:name=".Interview_Questions.Testing_Interview" />
+        <activity android:name=".Study.MainActivity_Study" />
+        <activity android:name=".Study.Java_Study" />
+        <activity android:name=".Study.Web_Technology_Study" />
+        <activity android:name=".Study.Big_Data_Study" />
+        <activity android:name=".Study.Dot_net_Study" />
+        <activity android:name=".Study.Sap_Study" />
+        <activity android:name=".Study.Oracle_Study" />
+        <activity android:name=".Study.Data_warehouse_Study" />
+        <activity android:name=".Study.Java_Script" />
+        <activity android:name=".Study.Testing_Study" />
+        <activity android:name=".WebDevelopment" />
+        <activity android:name=".AndroidDevelopment" />
+        <activity android:name=".IphoneDevelopment" />
+        <activity android:name=".Informatica" />
+        <activity android:name=".Test" />
+
     </application>
 
 </manifest>

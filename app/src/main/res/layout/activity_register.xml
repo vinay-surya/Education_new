@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#2E3136"
+    android:background="#ffffff"
     tools:context="com.wexos.guru.education.Register">
 
     <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:id="@+id/image_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/credible"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/image_logo"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -16,68 +33,69 @@
         android:paddingRight="20dp" >
 
         <EditText
-            android:id="@+id/name"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="#3C4049"
-            android:textColorHint="#ffffff"
-            android:hint="name"
-            android:padding="10dp"
-            android:singleLine="true"
-            android:inputType="textCapWords"
-
-           />
-
-        <EditText
-            android:id="@+id/email"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="#3C4049"
-            android:hint="email"
-            android:textColorHint="#ffffff"
+            android:layout_marginTop="15dp"
+            android:hint=" Name "
+            android:paddingLeft="10dp"
+            android:background="@drawable/textinputborder"
+            android:id="@+id/et_name"
             android:inputType="textEmailAddress"
-            android:padding="10dp"
-            android:singleLine="true"
-             />
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp" />
 
         <EditText
-            android:id="@+id/password"
+            android:hint=" Email"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/textinputborder"
+            android:id="@+id/et_email"
+            android:inputType="textEmailAddress"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="#3C4049"
-            android:hint="password"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            android:textColorHint="#ffffff"
-            android:singleLine="true"
-            />
+            android:layout_height="45dp" />
+
+        <EditText
+            android:hint=" Password"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/textinputborder"
+            android:id="@+id/et_paswword"
+            android:inputType="textEmailAddress"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp" />
 
         <!-- Login Button -->
 
         <Button
-            android:id="@+id/btnRegister"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
-            android:background="#ea4c88"
-            android:text="register"
-            android:textColor="#ffffff" />
-
+            android:textSize="20sp"
+            android:background="#aae6f7"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:onClick="reg_btn"
+            android:text="Register"
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"/>
         <!-- Link to Login Screen -->
 
         <Button
             android:id="@+id/btnLinkToLoginScreen"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
+            android:layout_marginTop="25dip"
             android:background="@null"
             android:text="Already registered? Login Me"
             android:textAllCaps="false"
-            android:textColor="#ffffff"
+            android:textColor="#161515"
             android:textSize="15dp" />
     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>

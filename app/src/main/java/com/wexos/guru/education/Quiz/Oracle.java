@@ -40,7 +40,7 @@ public class Oracle extends AppCompatActivity {   //Asp Activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_oracle);
+        setContentView(R.layout.activity_oracle_q);
 
 
         //Initialize the view
