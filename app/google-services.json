@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "641144331284",
+    "firebase_url": "https://fir-5c6f4.firebaseio.com",
+    "project_id": "fir-5c6f4",
+    "storage_bucket": "fir-5c6f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641144331284:android:672ccbc0570274e7",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641144331284-a7hqsiivnh6jjbdin61alc1ainttl5a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq3zKOB266ViGWDsIkBP6Vtim594SoPDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641144331284:android:f776aabf574f7000",
+        "android_client_info": {
+          "package_name": "com.wexos.guru.education"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641144331284-a7hqsiivnh6jjbdin61alc1ainttl5a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq3zKOB266ViGWDsIkBP6Vtim594SoPDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

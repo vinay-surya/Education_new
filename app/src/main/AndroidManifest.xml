@@ -27,7 +27,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Videoplay" />
         <activity android:name=".Login" />
-        <activity android:name=".Register" />
+
+        <activity android:name=".Register"></activity>
 
         <activity android:name=".Contactus" />
         <activity android:name=".Interview_Questions.Main2Activity" />

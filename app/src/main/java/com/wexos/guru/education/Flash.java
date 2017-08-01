@@ -38,7 +38,7 @@ public class Flash extends AppCompatActivity {
         RelativeLayout l=(RelativeLayout) findViewById(R.id.relative);
         l.clearAnimation();
         l.startAnimation(anim);
-
+//dkcfm
         anim = AnimationUtils.loadAnimation(this, R.anim.translate);
         anim.reset();
         ImageView iv = (ImageView) findViewById(R.id.logo);

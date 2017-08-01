@@ -32,7 +32,7 @@
 
         <EditText
             android:layout_marginTop="15dp"
-            android:hint=" Name "
+            android:hint=" Email "
             android:paddingLeft="10dp"
             android:background="@drawable/textinputborder"
             android:id="@+id/et_name"
@@ -43,7 +43,7 @@
             android:layout_height="45dp" />
 
         <EditText
-            android:hint=" Email"
+            android:hint=" password"
             android:layout_marginTop="15dp"
             android:paddingLeft="10dp"
             android:background="@drawable/textinputborder"

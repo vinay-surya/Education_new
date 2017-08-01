@@ -17,7 +17,7 @@ public class Java_Study extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_java_study);
 
-        mwebView= (WebView)findViewById(R.id.web_java);
+       // mwebView= (WebView)findViewById(R.id.web_java);
         mwebView.setWebViewClient(new WebViewClient());
         mwebView.loadUrl("https://www.tutorialspoint.com/java/");
     }

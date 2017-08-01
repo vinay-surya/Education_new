@@ -3,6 +3,8 @@
     <string name="title_activity_home">Home</string>
     <integer name="swing_anim_time">750</integer>
 
+    <string name="minimum_password">Enter atleast 6</string>
+
     <string name="content">Wexos Informatica is a developing technology to inspire. We understand the power of a large and active community. Whether its sharing best practices or solving problems, we put the power of community to work for each and every one of our customers
     </string>
 
